@@ -14,7 +14,7 @@ return [0, 1].
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class TwoSum {
 
 
     public int[] twoSum(int[] nums, int target){
@@ -36,7 +36,7 @@ public class Main {
     public static void main(String[] args) {
 	    int[] array = {2, 7, 11, 15};
         int target = 22;
-        Main main = new Main();
+        TwoSum main = new TwoSum();
         int[] result = main.twoSum(array, target);
         for (int i = 0; i < result.length; i++){
             System.out.println(result[i]);
